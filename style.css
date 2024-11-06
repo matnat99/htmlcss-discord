@@ -5,11 +5,23 @@
     padding: 0;
 }
 
+
+
 /* TYPOGRAPHY */
 body{
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
 }
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+
 
 /*GENERAL*/
 .container{
@@ -28,13 +40,16 @@ section{
 }
 
 .left-side{
-    width: 60%;
+    width: 70%;
 }
 
 .right-side{
-    width: 40%;
+    width: 30%;
 }
 
+
+
+/* BUTTONS */
 .hero-buttons{
     display: flex;
     justify-content: center;
@@ -65,6 +80,8 @@ section{
 .btn > i{
     margin-right: 15px;
 }
+
+
 
 /*HEADER*/
 header{
@@ -122,18 +139,22 @@ header{
     text-align: center;
 }
 
-h1{
-    font-size: 50px;
-}
-
 #header-bottom #hero > p{
     margin: 40px 0;
 }
 
+
+
 /* MAIN */
+
 /* SECTION 1 */
 #box-one{
     display: flex;
+}
+
+.right-side > p{
+    margin-top: 40px;
+    width: 75%;
 }
 
 /* SECTION 2 */
@@ -151,6 +172,8 @@ h1{
 #large-section{
     margin: 0 auto;
 }
+
+
 
 /* FOOTER */
 .footer-top{
