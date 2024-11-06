@@ -1,0 +1,147 @@
+/*RESET*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERAL*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    min-height: 616.6px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+.gray{
+    background-color: #D3D3D3;
+}
+
+.left-side{
+    width: 60%;
+}
+
+.right-side{
+    width: 40%;
+}
+
+
+/*HEADER*/
+header {
+    padding: 15px 0 10px;
+
+}
+
+#header-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#header-top > *{
+    padding: 15px;
+}
+
+#header-top .logo, #header-top .login{
+    width: 20%;
+}
+
+#header-top .nav{
+    flex-grow: 1;
+
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-top .login{
+    text-align: right;
+}
+
+#header-bottom {
+    padding: 60px;
+    
+}
+
+#hero {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+/* SECTION 1 */
+#box-one {
+    display: flex;
+}
+
+/* SECTION 2 */
+#box-two{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* SECTION 3 */
+#box-three {
+    display: flex;
+}
+
+/* SECTION 4 */
+#large-section{
+    margin: 0 auto;
+}
+
+/* FOOTER */
+.footer-top{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.large-column{
+    width: 30%;
+}
+
+.column{
+    width: calc(70% / 4);
+}
+
+.footer-top .col-small {
+    width: 30%;
+}
+.footer-top .col-big {
+    width: 70%;
+    display: flex;
+}
+
+.footer-top .col-big > .col-inner {
+    width: 25%;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+}
+
+.footer-bottom.container {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom .logo,
+.footer-bottom .btn {
+    padding: 6px 14px;
+}
