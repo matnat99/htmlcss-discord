@@ -21,6 +21,13 @@ h2{
     font-size: 40px;
 }
 
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
 
 
 /*GENERAL*/
@@ -47,6 +54,16 @@ section{
 .right-side{
     width: 35%;
 }
+
+li{
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.violet{
+    color: #7289DA;
+}
+
 
 
 
@@ -82,12 +99,12 @@ section{
     background-color: #8EA1E1;
     max-width: 200px;
     margin-left: 300px;
+    margin-top: 40px;
 }
 
 .btn > i{
     margin-right: 15px;
 }
-
 
 
 /*HEADER*/
@@ -154,6 +171,11 @@ header{
 
 /* MAIN */
 
+section :nth-child(2), section :nth-child(3){
+    background-image: url('img/wave.svg');
+    background-size: cover;
+}
+
 /* SECTION 1 */
 #box-one{
     display: flex;
@@ -194,6 +216,11 @@ header{
 
 
 /* FOOTER */
+footer{
+    background-color: #23272A;
+    color: white;
+}
+
 .footer-top{
     display: flex;
     padding-top: 10px;
@@ -204,8 +231,32 @@ header{
     width: 30%;
 }
 
+.lang > img{
+    height: 12px;
+}
+
+.lang > span{
+    font-size: 12px;
+}
+
+.ico{
+    font-size: 12px;
+}
+
+.ico > i{
+    margin-right: 12px;
+}
+
 .column{
     width: calc(70% / 4);
+}
+
+.column > ul > li:first-child{
+    color: #7289DA;
+}
+
+li{
+    font-size: 12px;
 }
 
 .footer-top .col-small{
@@ -222,6 +273,7 @@ header{
 
 .footer-bottom{
     padding-top: 30px;
+    border-top: 1px solid #FFFFFF;
 }
 
 .footer-bottom.container{
