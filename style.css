@@ -66,7 +66,6 @@ li{
 
 
 
-
 /* BUTTONS */
 .hero-buttons{
     display: flex;
@@ -102,10 +101,17 @@ li{
     margin-top: 40px;
 }
 
+.footer-bottom.btn-sign-up{
+    background-color: #8EA1E1;
+}
+
 .btn > i{
     margin-right: 15px;
 }
 
+#btn-sign-up{
+    margin: 0;
+}
 
 /*HEADER*/
 header{
@@ -131,7 +137,6 @@ header{
 
 #header-top .nav{
     flex-grow: 1;
-
 }
 
 .nav ul{
@@ -170,12 +175,6 @@ header{
 
 
 /* MAIN */
-
-section :nth-child(2), section :nth-child(3){
-    background-image: url('img/wave.svg');
-    background-size: cover;
-}
-
 /* SECTION 1 */
 #box-one{
     display: flex;
@@ -272,12 +271,11 @@ li{
 }
 
 .footer-bottom{
-    padding-top: 30px;
     border-top: 1px solid #FFFFFF;
 }
 
 .footer-bottom.container{
-    padding: 16px 0;
+    padding: 40px 0 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -286,3 +284,4 @@ li{
 .footer-bottom .btn{
     padding: 6px 14px;
 }
+
